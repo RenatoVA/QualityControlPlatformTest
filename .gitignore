@@ -1,0 +1,38 @@
+.# 🔹 Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Entorno virtual de Poetry
+.venv/
+.env
+.env.*
+
+# 🔹 Configuración de Django y credenciales
+db.sqlite3
+*.log
+secret_key.txt
+
+# 🔹 Archivos de migraciones (Opcional: si quieres versionarlas, quítalo)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# 🔹 Archivos de compilación
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Archivos de dependencias de Poetry
+poetry.lock
+Pipfile
+Pipfile.lock
+
+# 🔹 Archivos de bases de datos locales
+*.sqlite3
+*.sqlite3-journal
+*.pgdata
+
+# 🔹 Archivos de VSCode y PyCharm
+.vscode/
+.idea/
+*.iml
